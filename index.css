@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+#passwordInput{
+    width: 250px;
+    height: 40px;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+}
+#passwordInput::placeholder{
+    color: #ff0101;
+    font-weight: bold;
+}
+img{
+    position: absolute;
+    left: 80%;
+    top: 5px;
+    width: 35px;
+    cursor: pointer;
+}
+
